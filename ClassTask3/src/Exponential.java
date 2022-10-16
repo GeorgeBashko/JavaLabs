@@ -5,7 +5,7 @@ public class Exponential extends Series{
     }
 
     @Override
-    public double GetElement(int i) {
+    public double getElement(int i) {
         return (firstElement * Math.pow(de,(i - 1)));
     }
 }

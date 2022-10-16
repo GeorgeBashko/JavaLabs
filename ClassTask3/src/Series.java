@@ -12,14 +12,16 @@ public abstract class Series {
         firstElement = f;
         de = d;
         numOfElements = n;
+        if(n < 0)
+            throw new IllegalArgumentException();
     }
-    public abstract double GetElement(int i);
-    public double Sum()
+    public abstract double getElement(int i);
+    public double sum()
     {
         double sum = 0;
         for(int i = 1;i <= numOfElements;i++)
         {
-            sum += GetElement(i);
+            sum += getElement(i);
         }
         return sum;
     }
@@ -28,18 +30,18 @@ public abstract class Series {
         StringBuffer s = new StringBuffer();
         for(int i = 1;i <= numOfElements;i ++)
         {
-            s.append(GetElement(i));
+            s.append(getElement(i));
             s.append(" ");
         }
         return s.toString();
     }
-    public void Save(File file) throws IOException, FileNotFoundException
+    public void save(File file) throws IOException, FileNotFoundException
     {
         FileWriter fw = new FileWriter(file);
         String s = toString();
         fw.write(s,0,s.length());
         fw.write('\n');
-        fw.write("Sum is " + Sum());
+        fw.write("Sum is " + sum());
         fw.close();
     }
 }

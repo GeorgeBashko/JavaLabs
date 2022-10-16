@@ -4,7 +4,7 @@ public class Linear extends Series {
         super(el,d,num);
     }
     @Override
-    public double GetElement(int i)
+    public double getElement(int i)
     {
         return (firstElement + (i - 1)*de);
     }
