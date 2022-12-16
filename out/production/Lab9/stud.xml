@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Students>
+    <student name="George" number="12345" subject="Math" mark="10" />
+    <student name="George" number="12345" subject="Programming" mark="9" />
+    <student name="Frank" number="77777" subject="Math" mark="4" />
+</Students>
