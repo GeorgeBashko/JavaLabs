@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeftSide</title>
+</head>
+<body>
+<h2>Заполнение формы</h2>
+
+    <form>
+        <div>
+            <label for="Surname">
+                Фамилия:
+            </label><br>
+            <input type="text" required id="Surname" placeholder="Впишите фамилию"></input>
+        </div>
+        <div>
+            <label for="name">
+                Имя
+            </label><br>
+            <input type="text" required id="name" placeholder="Впишите имя"></input></div>
+        <div>
+            <label for="last name">
+                Отчество
+            </label><br>
+            <input type="text" required id="last name" placeholder="Впишите отчество"></input>
+        </div>
+        <div>
+            <label for="faculty">
+                Факультет
+            </label><br>
+            <input type="text" required id="faculty" placeholder="Впишите факультет"></input>
+        </div>
+        <div>
+            <label>Ваш курс</label>
+        </div>
+        <div>
+            <label for="education">
+                Select
+            </label>
+            <select required id="education">
+                <option id="firstED">1</option>
+                <option id="secondED">2</option>
+                <option id="thirdED">3</option>
+                <option id="fourthED">4</option>
+            </select>
+        </div>
+        <input type="reset" value="Регистрация"></input>
+    </form>
+
+</body>
+</html>

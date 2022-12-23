@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <div class="main" >
+        <h1 >Обо мне</h1>
+        <p>Воспользуйтесь закладками:</p>
+        <ul style="color: red; font-weight: bold;">
+            <li><a href="#bookmark1"  title="Университет">Университет</a></li>
+            <li><a href="#bookmark2"  title="Факультет">Факультет</a></li>
+            <li><a href="#bookmark3"  title="Специальность" >Специальность</a></li>
+            <li><a href="#bookmark4" title="Обо мне" >Обо мне</a></li>
+        </ul>
+        <h2 id="bookmark1" >Университет</h2>
+        <p class="ps">Учусь я в БГУ</p>
+        <p>Белору́сский госуда́рственный университет (БГУ) (белор. Белару́скі дзяржа́ўны ўніверсітэ́т (універсітэ́т)[5] — ведущее высшее учебное заведение Белоруссии, расположенное в Минске. Открыт 30 октября 1921 года.</p>
+        <div style="text-align: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Belarus-Minsk-BSU-Rector%27s_Office-2.jpg/411px-Belarus-Minsk-BSU-Rector%27s_Office-2.jpg" alt="БГУ" title="БГУ" class="white">
+        </div>
+        <h2 id="bookmark2">ФПМИ</h2>
+        <p>Учусь этом факультете с 2021 года.</p>
+        <h2 id="bookmark3">Специальность</h2>
+        <p>Моя специальность - иинформатика</p>
+        <div style="text-align: center;">
+            <img src="Информатика.png">
+        </div>
+        <h2 id="bookmark4" >Обо мне</h2>
+        <p>Хочу сдать сессию и получить зачет по ОТИ!!!</p>
+        <div style="text-align: center;">
+            <img src="Человек.png">
+        </div>
+        <p class="text" ><a href="#"  title="Кнопка возрата наверх" class="buttom">Вернуться наверх</a></p>
+    </div>
+
+    <table border="1">
+        <caption>Таблица моих оценок</caption>
+        <tr>
+            <th>ОТИ</th>
+            <th>МАТАН</th>
+            <th>АНГЛ</th>
+            <th>ПРОГА</th>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <h2>Если хотите, млжете заполнть форму</h2>
+
+    <form>
+        <div>
+            <label for="Surname">
+                Фамилия:
+            </label><br>
+            <input type="text" required id="Surname" placeholder="Впишите фамилию"></input>
+        </div>
+        <div>
+            <label for="name">
+                Имя
+            </label><br>
+            <input type="text" required id="name" placeholder="Впишите имя"></input></div>
+        <div>
+            <label for="last name">
+                Отчество
+            </label><br>
+            <input type="text" required id="last name" placeholder="Впишите отчество"></input>
+        </div>
+        <div>
+            <label for="faculty">
+                Факультет
+            </label><br>
+            <input type="text" required id="faculty" placeholder="Впишите факультет"></input>
+        </div>
+        <div>
+            <label>Ваш курс</label>
+        </div>
+        <div>
+            <label for="first">
+                1</label>
+            <input type="radio" required id="first" ></input>
+            <label for="second">
+                2</label>
+            <input type="radio" required id="second" ></input>
+        </div>
+        <div>
+            <label for="education">
+                Select
+            </label>
+            <select required id="education">
+                <option id="firstED">1</option>
+                <option id="secondED">2</option>
+                <option id="thirdED">3</option>
+                <option id="fourthED">4</option>
+            </select>
+        </div>
+        <input type="reset" value="Регистрация"></input>
+    </form>
+
+</body>
+</html>
